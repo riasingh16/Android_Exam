@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CodeIt</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="EmailAddress">ईमेल</string>
+    <string name="password">कुंजिका</string>
+    <string name="repassword">पासवर्ड फिर से लिखें</string>
+    <string name="textView3">नमस्ते</string>
+    <string name="regbutton">रजिस्टर करें</string>
+    <string name="loginbutton">पहले से ही एक खाता है? यहां साइन इन करो</string>
+    <string name="editTextUsername">उपयोगकर्ता नाम</string>
+    <string name="editTextPassword">कुंजिका</string>
+    <string name="buttonLogin">लॉग इन करें</string>
+    <string name="saveLoginCheckBox">मुझे याद रखना</string>
+</resources>

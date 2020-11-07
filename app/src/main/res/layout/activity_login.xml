@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_wall_cropped"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/teal_200"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="@string/editTextUsername"
+        android:imeOptions="actionNext"
+        android:inputType="textNoSuggestions"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editTextUsername"
+        android:layout_alignParentLeft="true"
+
+        android:backgroundTint="@color/teal_200"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:hint="@string/editTextPassword"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/teal_200"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/teal_700" />
+
+    <CheckBox
+        android:id="@+id/saveLoginCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPassword"
+        android:text="@string/saveLoginCheckBox"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/saveLoginCheckBox"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/buttonLogin" />
+
+</RelativeLayout>

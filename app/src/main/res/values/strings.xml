@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CodeIt</string>
+    <string name="username">Username</string>
+    <string name="EmailAddress">Email</string>
+    <string name="password">Password</string>
+    <string name="repassword">Retype Password</string>
+    <string name="textView3">Welcome</string>
+    <string name="regbutton">Register</string>
+    <string name="loginbutton">Already have an Account? Sign in here</string>
+    <string name="editTextUsername">Username</string>
+    <string name="editTextPassword">Password</string>
+    <string name="buttonLogin">Login</string>
+    <string name="saveLoginCheckBox">Remember me</string>
+    <string-array name="programming_languages">
+
+        <item>C</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>Javascript</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>Swift</item>
+        <item>TypeScript</item>
+
+    </string-array>
+    <string-array name="description">
+        <item>Learn C Programming</item>
+        <item>Learn C++ Programming</item>
+        <item>Learn C# Programming</item>
+        <item>Learn Java Programming</item>
+        <item>Learn Javascript Programming</item>
+        <item>Learn Kotlin</item>
+        <item>Learn Python Programming</item>
+        <item>Learn Ruby Programming</item>
+        <item>Learn Swift Programming</item>
+        <item>Learn Typescript Programming</item>
+
+    </string-array>
+
+
+</resources>
